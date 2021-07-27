@@ -1,0 +1,31 @@
+{
+  "name": "sealights-plugins-common",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Roni Segal <roni@sealights.io>",
+  "homepage": "https://github.com/RoniSegal/SL.OnPremis.Plugins.JavaScript#readme",
+  "license": "ISC",
+  "main": "tsoutputs/lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoniSegal/SL.OnPremis.Plugins.JavaScript.git"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "mocha ./tsOutputs/test"
+  },
+  "bugs": {
+    "url": "https://github.com/RoniSegal/SL.OnPremis.Plugins.JavaScript/issues"
+  },
+  "dependencies": {
+    "slnodejs": "6.0.29",
+    "minimist": "^1.2.5"
+  }
+}
