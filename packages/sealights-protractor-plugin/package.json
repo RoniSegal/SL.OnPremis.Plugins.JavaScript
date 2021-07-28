@@ -1,0 +1,35 @@
+{
+  "name": "sealights-protractor-plugin",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Roni Segal <roni@sealights.io>",
+  "homepage": "https://github.com/RoniSegal/SL.OnPremis.Plugins.JavaScript#readme",
+  "license": "ISC",
+  "main": "lib/sealights-protractor-plugin.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoniSegal/SL.OnPremis.Plugins.JavaScript.git"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "mocha ./tsOutputs/test",
+    "update-driver": "webdriver-manager update"
+  },
+  "bugs": {
+    "url": "https://github.com/RoniSegal/SL.OnPremis.Plugins.JavaScript/issues"
+  },
+  "dependencies": {
+    "protractor": "^5.2.2",
+    "sealights-plugins-common": "0.0.1-beta"
+  },
+  "devDependencies": {
+    "chromedriver": "^92.0.0"
+  }
+}
