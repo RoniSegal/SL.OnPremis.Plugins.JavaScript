@@ -1,6 +1,6 @@
 {
   "name": "sealights-protractor-plugin",
-  "version": "1.0.0",
+  "version": "0.0.2-beta.0",
   "description": "> TODO: description",
   "author": "Roni Segal <roni@sealights.io>",
   "homepage": "https://github.com/RoniSegal/SL.OnPremis.Plugins.JavaScript#readme",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "protractor": "^5.2.2",
-    "sealights-plugins-common": "0.0.1-beta"
+    "sealights-plugins-common": "^0.0.2-beta.0"
   },
   "devDependencies": {
     "chromedriver": "^92.0.0"
