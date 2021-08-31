@@ -5,13 +5,13 @@
   "author": "Roni Segal <roni@sealights.io>",
   "homepage": "https://github.com/RoniSegal/SL.OnPremis.Plugins.JavaScript#readme",
   "license": "ISC",
-  "main": "lib/sealights-protractor-plugin.js",
+  "main": "tsOutputs/lib/sealights-protractor-plugin.js",
   "directories": {
     "lib": "lib",
     "test": "tests"
   },
   "files": [
-    "lib"
+    "tsOutputs/lib"
   ],
   "repository": {
     "type": "git",
