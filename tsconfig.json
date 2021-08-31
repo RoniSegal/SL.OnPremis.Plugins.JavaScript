@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "outDir": "./tsOutputs",
     "declaration": true,
     "noImplicitAny": false,
     "removeComments": true,
