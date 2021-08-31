@@ -1,0 +1,53 @@
+{
+  "name": "testcafe-reporter-sealights",
+  "version": "0.0.1-beta",
+  "description": "sealights TestCafe reporter plugin.",
+  "repository": "https://github.com/ronisegal/testcafe-reporter-sealights",
+  "author": {
+    "name": "Roni Segal",
+    "email": "rsegal@sealights.io"
+  },
+  "main": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "build-ts": "tsc -p .",
+    "test": "gulp test",
+    "lint-fix": "eslint --fix test/ --ext .js",
+    "preview": "gulp preview"
+  },
+  "keywords": [
+    "testcafe",
+    "reporter",
+    "plugin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/istanbul-lib-coverage": "^2.0.3",
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.14.31",
+    "@types/sinon": "^9.0.11",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "callsite-record": "^3.2.0",
+    "chai": "^4.3.3",
+    "chai-as-promised": "^7.1.1",
+    "del": "^1.2.0",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-mocha": "^8.0.0",
+    "gulp-typescript": "^5.0.1",
+    "publish-please": "^5.4.3",
+    "sinon": "^9.2.4",
+    "testcafe": "^1.12.0",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^3.0.0",
+    "istanbul-lib-coverage": "^3.0.0",
+    "minimist": "^1.2.5",
+    "sealights-plugins-common": "^0.0.2-beta.0"
+  }
+}

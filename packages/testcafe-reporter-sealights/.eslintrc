@@ -1,0 +1,39 @@
+{
+  "parser":  "@typescript-eslint/parser",
+  "extends":  [
+    "eslint:recommended"
+  ],
+  "parserOptions":  {
+    "ecmaVersion":  2018,
+    "sourceType":  "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules":  {
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/class-name-casing": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-angle-bracket-type-assertion": "off",
+    "@typescript-eslint/no-object-literal-type-assertion": "off",
+    "@typescript-eslint/no-parameter-properties": "off",
+    "@typescript-eslint/consistent-type-assertions": "off",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-this-alias": "off",
+    "prefer-rest-params": "off",
+    "prefer-spread": "off",
+    "@typescript-eslint/no-unused-vars": ["error", {"vars": "all", "args": "none"}],
+    "max-len": ["off", {"code": 120}],
+    "quotes": ["error", "single"],
+    "space-before-function-paren": ["error", {"anonymous": "never", "named": "never", "asyncArrow": "always"}]
+  }
+}
