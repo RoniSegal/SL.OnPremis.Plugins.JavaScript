@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-sealights",
-  "version": "0.0.3-beta.0",
+  "version": "0.0.4-beta.0",
   "description": "sealights TestCafe reporter plugin.",
   "repository": "https://github.com/ronisegal/testcafe-reporter-sealights",
   "author": {
@@ -48,6 +48,6 @@
     "gulp-sourcemaps": "^3.0.0",
     "istanbul-lib-coverage": "^3.0.0",
     "minimist": "^1.2.5",
-    "sealights-plugins-common": "^0.0.2-beta.0"
+    "sealights-plugins-common": "^0.0.4-beta.0"
   }
 }
