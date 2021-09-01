@@ -11,7 +11,7 @@
     "test": "tests"
   },
   "files": [
-    "lib"
+    "tsoutputs"
   ],
   "repository": {
     "type": "git",
