@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-sealights",
-  "version": "0.0.8-beta.0",
+  "version": "0.0.9-beta.0",
   "description": "sealights TestCafe reporter plugin.",
   "repository": "https://github.com/ronisegal/testcafe-reporter-sealights",
   "author": {
